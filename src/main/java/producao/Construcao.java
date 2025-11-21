@@ -1,4 +1,4 @@
-package Producao;
+package producao;
 
 public class Construcao {
 }

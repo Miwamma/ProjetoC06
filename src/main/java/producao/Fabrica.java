@@ -1,4 +1,4 @@
-package Producao;
+package producao;
 
 public class Fabrica {
     public String nome;
@@ -10,4 +10,5 @@ public class Fabrica {
         System.out.println("A fabrica:  "+ nome + " produz carros populares e esportivos, seu dono(a) é o Sr(Sra): " + dono);
         System.out.printf("Seu ano de fundação é:" + anofundacao + " e o telefone de contato é:" + telefone);
     }
+
 }
