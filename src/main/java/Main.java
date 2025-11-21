@@ -22,7 +22,6 @@ public class Main {
             System.out.print("Escolha uma opção: ");
 
             opcao = sc.nextInt();
-            //String marca, String modelo, String motor, int ano, float peso
             switch (opcao) {
                 case 1:
 

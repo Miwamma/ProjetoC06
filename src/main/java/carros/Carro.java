@@ -30,11 +30,7 @@ public abstract class Carro {
     public float getPeso() {
         return peso;
     }
-    public void Produzir(){
-        System.out.println("Produzindo o carro de marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Ano: " + ano);
-        System.out.println("Peso: " + peso);
-    }
+
+    public abstract void Produzir();
 
 }

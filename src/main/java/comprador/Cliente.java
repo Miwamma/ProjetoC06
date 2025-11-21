@@ -10,12 +10,6 @@ public class Cliente{
     private List<Carro> carroscomprados;
 
     public Cliente() {
-        if(nome == null || nome.isEmpty()){
-            throw new IllegalArgumentException("O clinete PRECISA ter um nome.");
-        }
-        if(cpf == null || cpf.isEmpty()){
-            throw new IllegalArgumentException("O clinete PRECISA ter um CPF.");
-        }
         this.nome = nome;
         this.cpf = cpf;
         this.carroscomprados = new ArrayList<Carro>();
